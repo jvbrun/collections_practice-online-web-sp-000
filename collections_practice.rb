@@ -20,7 +20,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.map { |x| array[2] = "$" } 
+  array.map { |x| array[2] == "$" } 
   new_array
 end
 
