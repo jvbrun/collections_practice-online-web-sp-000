@@ -21,6 +21,6 @@ end
 
 def kesha_maker(array)
   array.map { |a| array[2] = "$" } 
-  array
+  new_array
 end
 
