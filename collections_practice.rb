@@ -13,7 +13,7 @@ end
 def swap_elements(array)
   x = array[1]
   y = array[2]
-  array.each |a| x, y <=> y, x 
+  new_array << x, y <=> y, x 
 end
 
 def reverse_array(array)
