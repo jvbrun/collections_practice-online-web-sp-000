@@ -20,7 +20,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.select { |item| item[2] == "$" }
+  array.each { |item| item[2] == "$" }
 end
 
 
