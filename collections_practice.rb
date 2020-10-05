@@ -23,4 +23,6 @@ def kesha_maker(array)
   array.map { |array| array[2] = "$" } 
 end
 
-
+def find_a(array)
+  array.select { |item| item[0] == "a" }
+end
