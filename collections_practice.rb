@@ -10,9 +10,9 @@ def sort_array_char_count(array)
   array.sort_by{|a| a.length}
 end
 
-def swap_elements(array)
-  switch = array.pop
-  array.insert(1, switch)
+def swap_elements_from_to(array, from, to)
+  array[from], array[to] = array[to], array[from]
+  array
 end
 
 def reverse_array(array)
