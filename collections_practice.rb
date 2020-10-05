@@ -19,8 +19,9 @@ def reverse_array(array)
   array.reverse 
 end
 
-def kesha_maker(array)
-  array.map { |array| array[2] = "$" } 
+def kesha_maker(names)
+  names.map { |name| name[2] = "$" } 
+  names
 end
 
 def find_a(array)
