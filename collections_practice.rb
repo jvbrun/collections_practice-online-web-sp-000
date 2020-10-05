@@ -32,7 +32,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map.with_index do { |item, index| index != 1  item << "s" }
-  array  
+  array.map.with_index do |item, index|
+    index != 1 ? item << "s" : item
   end
   
