@@ -19,5 +19,5 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  new_arrary << array.each.swap_elements(3) "$"
+  array.swap_elements
 end
