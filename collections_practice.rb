@@ -33,6 +33,6 @@ end
 
 def add_s(array)
   array.each do {|x| array << "s"}
-end
   end
+end
   
