@@ -27,4 +27,6 @@ def find_a(array)
   array.select { |x| x[0] == "a" }
 end
 
-
+def sum_array(array)
+  array.reduce(:+)
+end
