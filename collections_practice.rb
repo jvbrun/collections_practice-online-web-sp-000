@@ -33,7 +33,7 @@ end
 
 def add_s(array)
   array.map.with_index { |item, index|
-    index != 1 ? item << "s" }
+    index != 1 item << "s" }
     array 
   end
   
