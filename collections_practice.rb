@@ -11,17 +11,16 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  x = array[1]
-  y = array[2]
-  new_array << x, y <=> y, x 
+ array.map { |a| array[1] = array[2] && array[2] = array[1] } 
+  array
 end
 
 def reverse_array(array)
   array.reverse 
 end
 
-def kesha_maker(names)
-  names.map { |name| name[2] = "$" } 
-  names
+def kesha_maker(array)
+  array.map { |a| array[2] = "$" } 
+  array
 end
 
